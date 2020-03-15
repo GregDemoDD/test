@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={process.env.PUBLIIC_URL  + "/gregory_photo.png"} className="App-logo" alt="logo" />
+        <img src={process.env.PUBLIC_URL + "/gregory_photo.png"} className="App-logo" alt="logo" />
         <p>
           Hello, Datadog!
         </p>
