@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={process.env.PUBLIC_URL + "/g_photo.png"} className="App-logo" alt="logo" />
         <p>
-          Hello, world!
+          Hello, Datadog!
         </p>
       </header>
     </div>
